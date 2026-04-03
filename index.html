@@ -1,1 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Seu Nome</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-900 font-sans">
+
+  <!-- HEADER MINIMALISTA -->
+  <header class="max-w-3xl mx-auto p-6">
+    <h1 class="text-3xl font-semibold">Seu Nome</h1>
+    <p class="text-gray-600">Professor(a) • Pesquisa em Métodos Numéricos</p>
+  </header>
+
+  <!-- NAV SIMPLES -->
+  <nav class="max-w-3xl mx-auto px-6 pb-4 flex gap-6 text-sm text-gray-600">
+    <a href="#sobre">Sobre</a>
+    <a href="#pesquisa">Pesquisa</a>
+    <a href="#publicacoes">Publicações</a>
+    <a href="#ensino">Ensino</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <!-- SOBRE -->
+  <section id="sobre" class="max-w-3xl mx-auto px-6 py-4">
+    <p>
+      Breve descrição acadêmica. Atuação em modelagem matemática, métodos numéricos e computação científica.
+    </p>
+
+    <div class="mt-4 flex gap-4 text-sm">
+      <a href="#" class="underline">Lattes</a>
+      <a href="https://orcid.org/" target="_blank" class="underline">ORCID</a>
+      <a href="https://scholar.google.com/" target="_blank" class="underline">Google Scholar</a>
+    </div>
+  </section>
+
+  <!-- PESQUISA -->
+  <section id="pesquisa" class="max-w-3xl mx-auto px-6 py-4">
+    <h2 class="text-xl font-semibold mb-2">Pesquisa</h2>
+    <ul class="list-disc ml-5 text-gray-700">
+      <li>Métodos multigrid</li>
+      <li>Equações diferenciais parciais</li>
+      <li>Computação científica</li>
+    </ul>
+  </section>
+
+  <!-- PUBLICAÇÕES COM GOOGLE SCHOLAR EMBED -->
+  <section id="publicacoes" class="max-w-3xl mx-auto px-6 py-4">
+    <h2 class="text-xl font-semibold mb-2">Publicações</h2>
+
+    <p class="text-sm text-gray-600 mb-2">
+      Lista automática via Google Scholar:
+    </p>
+
+    <iframe src="https://scholar.google.com/citations?user=SEU_ID" 
+            class="w-full h-96 border rounded"></iframe>
+
+    <p class="text-sm text-gray-600 mt-3">
+      Alternativamente, use ORCID para integração formal.
+    </p>
+  </section>
+
+  <!-- ENSINO -->
+  <section id="ensino" class="max-w-3xl mx-auto px-6 py-4">
+    <h2 class="text-xl font-semibold mb-2">Ensino</h2>
+    <ul class="text-gray-700 space-y-1">
+      <li>Métodos Numéricos – <a href="#" class="underline">Moodle</a></li>
+      <li>Cálculo I</li>
+    </ul>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="max-w-3xl mx-auto px-6 py-4">
+    <h2 class="text-xl font-semibold mb-2">Contato</h2>
+    <p class="text-gray-700">email@universidade.br</p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="max-w-3xl mx-auto px-6 py-6 text-sm text-gray-500">
+    © 2026 • Seu Nome
+  </footer>
+
+</body>
+</html>
 
